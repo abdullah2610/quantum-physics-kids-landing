@@ -1,49 +1,43 @@
 import { useEffect, useState } from 'react';
 import { Share2 } from 'lucide-react';
-
-const resourceLinks = {
-  flashcards: 'https://example.com/flashcards',
-  videos: 'https://example.com/videos',
-  infographic: 'https://example.com/infographic.pdf',
-  presentation: 'https://example.com/presentation'
-};
+import { CONFIG } from './config';
 
 const resources = [
   {
     id: 1,
     key: 'flashcards',
-    emoji: '📚',
-    title: 'Interactive Flashcards',
-    description: 'Master quantum concepts with 50+ engaging flashcards. Perfect for quick review and deep learning!',
-    buttonText: 'Start Learning',
-    url: resourceLinks.flashcards
+    emoji: CONFIG.resources.flashcards.icon,
+    title: CONFIG.resources.flashcards.title,
+    description: CONFIG.resources.flashcards.description,
+    buttonText: CONFIG.resources.flashcards.buttonText,
+    url: CONFIG.resources.flashcards.url
   },
   {
     id: 2,
     key: 'videos',
-    emoji: '🎬',
-    title: 'Animated Video Lessons',
-    description: 'Watch quantum physics come alive with beautifully animated explainer videos. Complex ideas made simple!',
-    buttonText: 'Watch Now',
-    url: resourceLinks.videos
+    emoji: CONFIG.resources.videos.icon,
+    title: CONFIG.resources.videos.title,
+    description: CONFIG.resources.videos.description,
+    buttonText: CONFIG.resources.videos.buttonText,
+    url: CONFIG.resources.videos.url
   },
   {
     id: 3,
     key: 'infographic',
-    emoji: '📊',
-    title: 'Downloadable Infographic',
-    description: 'Get a stunning one-page visual summary of quantum mechanics. Print-ready, perfect for your wall!',
-    buttonText: 'Download PDF',
-    url: resourceLinks.infographic
+    emoji: CONFIG.resources.infographic.icon,
+    title: CONFIG.resources.infographic.title,
+    description: CONFIG.resources.infographic.description,
+    buttonText: CONFIG.resources.infographic.buttonText,
+    url: CONFIG.resources.infographic.url
   },
   {
     id: 4,
     key: 'presentation',
-    emoji: '🎓',
-    title: 'Interactive Presentation',
-    description: 'Dive deeper with our comprehensive slide deck. Great for students, teachers, and curious minds!',
-    buttonText: 'View Slides',
-    url: resourceLinks.presentation
+    emoji: CONFIG.resources.presentation.icon,
+    title: CONFIG.resources.presentation.title,
+    description: CONFIG.resources.presentation.description,
+    buttonText: CONFIG.resources.presentation.buttonText,
+    url: CONFIG.resources.presentation.url
   }
 ];
 
@@ -238,7 +232,7 @@ function App() {
             <p className="text-[#666]">
               Loved the book?{' '}
               <a
-                href="https://amazon.com"
+                href={CONFIG.amazonReviewUrl}
                 className="text-black font-semibold underline hover:text-[#666] transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
