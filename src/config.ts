@@ -16,14 +16,14 @@ export const CONFIG = {
       buttonText: 'Watch Now'
     },
     infographic: {
-      url: 'https://your-domain.com/quantum-infographic.pdf',
+      url: 'https://drive.google.com/uc?export=download&id=1Z_mSSKTzdej7h2gU5yzPDWTECh9AE8xO',
       title: 'Downloadable Infographic',
       description: 'Get a stunning one-page visual summary of quantum mechanics. Print-ready, perfect for your wall!',
       icon: '📊',
       buttonText: 'Download PDF'
     },
     presentation: {
-      url: 'https://your-domain.com/presentation',
+      url: 'https://drive.google.com/uc?export=download&id=13wLKwGbbp-78KNRzttDjlacmzWxy2r8b',
       title: 'Interactive Presentation',
       description: 'Dive deeper with our comprehensive slide deck. Great for students, teachers, and curious minds!',
       icon: '🎓',
