@@ -5,21 +5,21 @@ import { CONFIG } from '../config';
 const resources = [
   {
     id: 1,
-    key: 'flashcards',
-    emoji: CONFIG.resources.flashcards.icon,
-    title: CONFIG.resources.flashcards.title,
-    description: CONFIG.resources.flashcards.description,
-    buttonText: CONFIG.resources.flashcards.buttonText,
-    url: CONFIG.resources.flashcards.url
-  },
-  {
-    id: 2,
     key: 'videos',
     emoji: CONFIG.resources.videos.icon,
     title: CONFIG.resources.videos.title,
     description: CONFIG.resources.videos.description,
     buttonText: CONFIG.resources.videos.buttonText,
     url: CONFIG.resources.videos.url
+  },
+  {
+    id: 2,
+    key: 'flashcards',
+    emoji: CONFIG.resources.flashcards.icon,
+    title: CONFIG.resources.flashcards.title,
+    description: CONFIG.resources.flashcards.description,
+    buttonText: CONFIG.resources.flashcards.buttonText,
+    url: CONFIG.resources.flashcards.url
   },
   {
     id: 3,
@@ -32,21 +32,21 @@ const resources = [
   },
   {
     id: 4,
-    key: 'presentation',
-    emoji: CONFIG.resources.presentation.icon,
-    title: CONFIG.resources.presentation.title,
-    description: CONFIG.resources.presentation.description,
-    buttonText: CONFIG.resources.presentation.buttonText,
-    url: CONFIG.resources.presentation.url
-  },
-  {
-    id: 5,
     key: 'scienceLab',
     emoji: CONFIG.resources.scienceLab.icon,
     title: CONFIG.resources.scienceLab.title,
     description: CONFIG.resources.scienceLab.description,
     buttonText: CONFIG.resources.scienceLab.buttonText,
     url: CONFIG.resources.scienceLab.url
+  },
+  {
+    id: 5,
+    key: 'presentation',
+    emoji: CONFIG.resources.presentation.icon,
+    title: CONFIG.resources.presentation.title,
+    description: CONFIG.resources.presentation.description,
+    buttonText: CONFIG.resources.presentation.buttonText,
+    url: CONFIG.resources.presentation.url
   }
 ];
 
