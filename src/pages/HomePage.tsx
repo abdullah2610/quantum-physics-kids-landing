@@ -38,6 +38,15 @@ const resources = [
     description: CONFIG.resources.presentation.description,
     buttonText: CONFIG.resources.presentation.buttonText,
     url: CONFIG.resources.presentation.url
+  },
+  {
+    id: 5,
+    key: 'scienceLab',
+    emoji: CONFIG.resources.scienceLab.icon,
+    title: CONFIG.resources.scienceLab.title,
+    description: CONFIG.resources.scienceLab.description,
+    buttonText: CONFIG.resources.scienceLab.buttonText,
+    url: CONFIG.resources.scienceLab.url
   }
 ];
 

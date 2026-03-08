@@ -28,6 +28,13 @@ export const CONFIG = {
       description: 'Dive deeper with our comprehensive slide deck. Great for students, teachers, and curious minds!',
       icon: '🎓',
       buttonText: 'View Slides'
+    },
+    scienceLab: {
+      url: 'https://drive.google.com/uc?export=download&id=[SCIENCE-LAB-GUIDE-ID]',
+      title: 'Hands-On Science Lab Guide',
+      description: '5 Fun Experiments to Try at Home',
+      icon: '🔬',
+      buttonText: 'Get Experiments'
     }
   },
 
