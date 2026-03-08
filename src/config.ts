@@ -30,7 +30,7 @@ export const CONFIG = {
       buttonText: 'View Slides'
     },
     scienceLab: {
-      url: 'https://drive.google.com/uc?export=download&id=[SCIENCE-LAB-GUIDE-ID]',
+      url: 'https://drive.google.com/uc?export=download&id=1Y0Mv4W1lKCLYJVSifni1Nb3SOKx0vKqo',
       title: 'Hands-On Science Lab Guide',
       description: '5 Fun Experiments to Try at Home',
       icon: '🔬',
