@@ -15,6 +15,13 @@ const videos = [
     description: "Journey into the quantum realm and discover how quantum mechanics powers the technology in your pocket. See quantum physics in action!",
     embedUrl: "https://drive.google.com/file/d/1RYKxTciHIWPxJa3hfcclhvRy1NGUvP1s/preview",
     duration: "Educational Animation"
+  },
+  {
+    id: 3,
+    title: "The Quantum Coin and The Cat",
+    description: "Dive into the mind-bending world of quantum superposition! Learn how things can be in multiple states at once, just like Schrödinger's famous cat.",
+    embedUrl: "https://drive.google.com/file/d/1H7mUC-FZettYy1cHSD4NioqJm3s24pch/preview",
+    duration: "Educational Animation"
   }
 ];
 
