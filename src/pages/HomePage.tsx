@@ -228,20 +228,31 @@ export default function HomePage() {
         </div>
 
         <footer className="border-t-2 border-[#E5E5E5] pt-8 text-center">
-          <div className="space-y-4 mb-6">
-            <p className="text-[#666]">
-              Loved the book?{' '}
-              <a
-                href={CONFIG.amazonReviewUrl}
-                className="text-black font-semibold underline hover:text-[#666] transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Leave a review on Amazon!
-              </a>
-            </p>
+          <div className="space-y-6 mb-6">
+            <div className="relative inline-block">
+              <div className="absolute -inset-1 bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-400 rounded-lg blur-sm opacity-75 animate-pulse"></div>
+              <div className="relative bg-white border-2 border-amber-400 rounded-lg p-6 shadow-lg">
+                <p className="text-lg text-black mb-3 font-bold">
+                  ⭐ Loved the book? Your review means the world! ⭐
+                </p>
+                <a
+                  href={CONFIG.amazonReviewUrl}
+                  className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-400 to-yellow-400 text-black font-bold px-8 py-3 rounded-lg hover:from-amber-500 hover:to-yellow-500 transition-all duration-300 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-amber-300 focus:ring-offset-2 text-lg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Leave a Review on Amazon
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 4L14 10L7 16" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </a>
+                <p className="text-sm text-[#666] mt-3">
+                  It only takes 30 seconds and helps other families discover the magic of quantum physics!
+                </p>
+              </div>
+            </div>
 
-            <p className="text-black font-semibold">
+            <p className="text-black font-semibold text-lg">
               Coming Soon: <span className="italic">Quantum Superpowers</span> - Book 2
             </p>
           </div>
