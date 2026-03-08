@@ -9,7 +9,7 @@ export const CONFIG = {
       buttonText: 'Start Learning'
     },
     videos: {
-      url: 'https://your-domain.com/videos',
+      url: '/videos',
       title: 'Animated Video Lessons',
       description: 'Watch quantum physics come alive with beautifully animated explainer videos. Complex ideas made simple!',
       icon: '🎬',
