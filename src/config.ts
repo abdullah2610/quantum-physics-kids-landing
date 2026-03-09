@@ -39,7 +39,7 @@ export const CONFIG = {
   },
 
   // Other links
-  amazonReviewUrl: 'https://amazon.com/review/[YOUR-BOOK-ASIN]',
+  amazonReviewUrl: 'https://amazon.com/review/B0GRVCTKH1',
   book2Url: 'https://amazon.com/[BOOK-2-LINK]',
 
   // Analytics (optional)
