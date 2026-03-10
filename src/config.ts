@@ -2,7 +2,7 @@
 export const CONFIG = {
   resources: {
     flashcards: {
-      url: 'https://quantum-physics-flascards.vercel.app/',
+      url: 'https://flashcards.quantumfunzone.com',
       title: 'Interactive Flashcards',
       description: 'Master quantum concepts with 70+ engaging flashcards. Perfect for quick review and deep learning!',
       icon: '📚',
