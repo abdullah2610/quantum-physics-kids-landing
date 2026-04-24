@@ -78,6 +78,11 @@
     }
   }
 
+  @keyframes nb-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
   @keyframes confetti-fall {
     0% {
       transform: translateY(-100vh) rotate(0deg);
@@ -109,8 +114,17 @@
     animation: fadeInUp 0.6s ease-out forwards;
   }
 
+  .animate-nb-spin {
+    animation: nb-spin 8s linear infinite;
+  }
+
   .animate-confetti {
     animation: confetti-fall 2s ease-in forwards;
+  }
+
+  .resource-card:hover {
+    box-shadow: 8px 8px 0 rgba(42,33,25,0.14) !important;
+    filter: brightness(0.98);
   }
 
   .delay-100 {
