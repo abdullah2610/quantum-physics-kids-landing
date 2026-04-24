@@ -329,22 +329,11 @@ export default function HomePage() {
             }}>
               <Tape color={C.blue} rot={-6} w={90}
                 style={{ position: 'absolute', top: -12, left: '50%', marginLeft: -45 }} />
-              <div style={{
-                width: 'clamp(180px, 20vw, 240px)', height: 'clamp(230px, 26vw, 310px)',
-                background: `linear-gradient(145deg, ${C.blue}1a 0%, ${C.ink}0d 100%)`,
-                borderRadius: 4, display: 'flex', flexDirection: 'column',
-                alignItems: 'center', justifyContent: 'center', gap: 12,
-              }}>
-                <Atom size={70} color={C.blue} />
-                <div style={{ textAlign: 'center', padding: '0 14px' }}>
-                  <div style={{ fontFamily: '"Fraunces", serif', fontWeight: 600, fontSize: 'clamp(13px, 1.5vw, 17px)', color: C.ink, lineHeight: 1.2 }}>
-                    Quantum Physics for Kids
-                  </div>
-                  <div style={{ fontFamily: '"Caveat", cursive', fontSize: 'clamp(12px, 1.3vw, 15px)', color: C.blue, marginTop: 4 }}>
-                    The Hidden World
-                  </div>
-                </div>
-              </div>
+              <img
+                src="/book-mockup.jpg"
+                alt="Quantum Physics for Kids: The Hidden World by A. L. Umari"
+                style={{ width: 'clamp(180px, 20vw, 260px)', height: 'auto', display: 'block', borderRadius: 2 }}
+              />
               <div style={{ fontFamily: '"Caveat", cursive', fontSize: 22, color: C.ink, textAlign: 'center', marginTop: 10 }}>
                 The Hidden World ✨
               </div>
