@@ -16,7 +16,7 @@ export const CONFIG = {
       buttonText: 'Watch Now'
     },
     infographic: {
-      url: 'https://drive.google.com/uc?export=download&id=14aYMGc6j78NIYzmezJBaFL4kK-LOEU8z',
+      url: 'https://drive.google.com/file/d/14aYMGc6j78NIYzmezJBaFL4kK-LOEU8z/view?usp=sharing',
       title: 'Downloadable Infographic',
       description: 'Get a stunning one-page visual summary of quantum mechanics. Print-ready, perfect for your wall!',
       icon: '📊',
