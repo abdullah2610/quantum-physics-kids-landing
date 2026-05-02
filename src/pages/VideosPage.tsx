@@ -6,14 +6,14 @@ const videos = [
     id: 1,
     title: "Light's Dual Identity",
     description: "Explore the fascinating dual nature of light as both a wave and a particle. Discover how this quantum phenomenon shapes our understanding of the universe.",
-    embedUrl: "https://drive.google.com/file/d/1yYnkEfF1cE3pINbF_l0Dv-iag1vCoHnx/preview",
+    embedUrl: "https://drive.google.com/file/d/1JN6QgiGfI6hW0aw63b6CCa4ELiF6X3lx/preview",
     duration: "Educational Animation"
   },
   {
     id: 2,
     title: "Quantum World On Phone",
     description: "Journey into the quantum realm and discover how quantum mechanics powers the technology in your pocket. See quantum physics in action!",
-    embedUrl: "https://drive.google.com/file/d/1RYKxTciHIWPxJa3hfcclhvRy1NGUvP1s/preview",
+    embedUrl: "https://drive.google.com/file/d/1Gstg994dv_SlClZFsCNZSmemyJsXn-LM/preview",
     duration: "Educational Animation"
   },
   {
